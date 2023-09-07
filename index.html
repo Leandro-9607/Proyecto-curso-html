@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/favicon.png" type="image/x-icon">
+    <title>Emita, la gatita</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Emita, la gatita</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li> <!-- Formulario de contacto que para que funcione deberia consumir una api de terceros o algun back end. -->
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Emita, la guardiana de la casa</h2>
+    <hr>
+
+    <article class="container">
+        <h3>La vida de Emita</h3>
+        <img class="image" src="/assets/images/emitabebe.jpg" alt="Emita la gatita, biografia">
+        <p>
+            En el corazón de la encantadora provincia de Jujuy, Argentina, nació una <em>gatita</em> especial que recibiría el nombre de <b>Emita</b>. Era un cálido día de octubre cuando <b>Emita</b> llegó al mundo, en una camada de <em>gatitos</em> llenos de energía y vitalidad. Su pelaje blanco con manchas negras la hacía destacar desde el principio, como una pequeña obra de arte en medio de la naturaleza.
+        </p>
+
+        <hr>
+
+        <img class="image2" src="/assets/images/emita4.jpg" alt="El Vínculo con Pelotita y sus pasatiempos">
+        <p>
+            El destino unió a <b>Emita</b> con su compañera humana, Pelotita. Desde el primer día en que Pelotita la acogió en sus brazos, nació una conexión profunda. <b>Emita</b> pronto se convirtió en la sombra de Pelotita, siguiéndola por la casa y buscando su cercanía en todo momento. Sus ronroneos llenaban cada rincón y su presencia era un bálsamo para ambos.
+            <br>
+            <b>Emita</b> poseía un apetito insaciable y un amor innegable por la comida. No importaba la hora del día, siempre estaba dispuesta a disfrutar de un festín. Su relación con la comida era como un vínculo con la vida misma, y su entusiasmo por los sabores la hacía aún más encantadora.
+            Sin embargo, su afán por la protección de su hogar no restaba tiempo para sus siestas. <b>Emita</b> adoraba compartir momentos de descanso con Pelotita. Las tardes se volvían una sinfonía de ronroneos y sueños compartidos, fortaleciendo su vínculo y creando recuerdos imborrables.
+        </p>
+
+        <hr>
+
+        <img class="image" src="/assets/images/emita5.jpg" alt="Las Noches de Guardia">
+        <p>
+            A medida que <b>Emita</b> crecía, su reputación como <i>guardiana</i> se fortalecía. Vecinos y amigos comenzaron a compartir historias sobre cómo <b>Emita</b> ahuyentaba a aves, pequeños roedores e intrusos que intentaban acercarse a la casa. Su habilidad para detectar peligros desde el techo la convirtió en un elemento esencial en la seguridad del hogar.
+        </p>
+    </article>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
